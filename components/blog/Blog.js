@@ -12,9 +12,9 @@ import FeaturedPost from './FeaturedPost';
 import Main from './Main';
 import Sidebar from './Sidebar';
 import Footer from './Footer';
-import post1 from './blog-post.1.md';
-import post2 from './blog-post.2.md';
-import post3 from './blog-post.3.md';
+// import post1 from './blog-post.1.md';
+// import post2 from './blog-post.2.md';
+// import post3 from './blog-post.3.md';
 
 const useStyles = makeStyles(theme => ({
   mainGrid: {
@@ -63,7 +63,34 @@ const featuredPosts = [
   },
 ];
 
-const posts = [post1, post2, post3];
+// const posts = [post1, post2, post3];
+
+const posts = [ 
+    {
+      date: "Nov 12",
+       description: "This is a description of post 1",
+       image: "https://source.unsplash.com/random",
+       imageText: "Image Text 1",
+       title: "Post number 1",
+       body: "body 1"
+    },
+    {
+      date: "Nov 12",
+       description: "This is a description of post 2",
+       image: "https://source.unsplash.com/random",
+       imageText: "Image Text 2",
+       title: "Post number 2",
+       body: "body 2"
+    },
+    {
+      date: "Nov 12",
+       description: "This is a description of post 3",
+       image: "https://source.unsplash.com/random",
+       imageText: "Image Text 3",
+       title: "Post number 3",
+       body: "body 3"
+    }
+]
 
 const sidebar = {
   title: 'About',
