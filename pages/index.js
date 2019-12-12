@@ -30,6 +30,10 @@ export default function Index() {
           Go to the about page
         </Link>
         <span>&nbsp;</span>
+        <Link href="/album" color="secondary">
+          Go to the album page
+        </Link>
+        <span>&nbsp;</span>
         <Link href="/blog" color="secondary">
           Go to the blog page
         </Link>
