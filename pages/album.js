@@ -8,7 +8,7 @@ import ProTip from '../src/ProTip';
 import Link from '../src/Link';
 import Album from '../components/album/Album';
 
-export default function BlogContainer() {
+export default function AlbumContainer() {
   return (
     <Album />
   );
