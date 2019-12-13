@@ -29,13 +29,21 @@ export default function Index() {
         <Link href="/about" color="secondary">
           Go to the about page
         </Link>
-        <span>&nbsp;</span>
+        <span>&nbsp;|&nbsp;</span>
         <Link href="/album" color="secondary">
-          Go to the album page
+          ALBUM 
         </Link>
-        <span>&nbsp;</span>
+        <span>&nbsp;|&nbsp;</span>
         <Link href="/blog" color="secondary">
-          Go to the blog page
+          BLOG
+        </Link>
+        <span>&nbsp;|&nbsp;</span>
+        <Link href="/pricing" color="secondary">
+          PRICING
+        </Link>
+        <span>&nbsp;|&nbsp;</span>
+        <Link href="/sticky-footer" color="secondary">
+          STICKY FOOTER
         </Link>
         <ProTip />
         <Copyright />
