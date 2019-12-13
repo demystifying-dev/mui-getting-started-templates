@@ -2,7 +2,7 @@
 
 ## This repo
 
-This is just an informal repo I've created myself in order to run [MUI Getting Started React Templates](https://material-ui.com/getting-started/templates/) on top of the [MUI Next.js example app](https://github.com/mui-org/material-ui/tree/master/examples/nextjs#nextjs-example).
+This is just an informal repo I've created myself in order to run [MUI Getting Started React Templates](https://material-ui.com/getting-started/templates/) on top of the [MUI Next.js example app](https://github.com/mui-org/material-ui/tree/master/examples/nextjs#nextjs-example) to make sure SSR includes MUI (like when you refresh or start browsing from a given page).
 
 The former states:
 
